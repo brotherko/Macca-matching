@@ -5,3 +5,6 @@ Werkzeug
 distribute
 wsgiref
 requests
+flask-cors
+numpy==1.16.0
+pandas==0.23.4

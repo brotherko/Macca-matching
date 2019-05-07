@@ -11,6 +11,5 @@ ADD ./webapp /opt/webapp/
 WORKDIR /opt/webapp
 
 RUN conda install scikit-learn
-RUN conda install pandas 
 
 CMD gunicorn --bind 0.0.0.0:$PORT wsgi
